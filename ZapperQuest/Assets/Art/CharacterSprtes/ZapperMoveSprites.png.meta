@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f76d00b3926bd41409272b7353479769
+guid: 6ba52f2eb5155b742bcb994e25cda9a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,9 +121,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 95
-        width: 14
-        height: 29
+        y: 93
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79148168ddf674ece8fd34ee42d96213
-      internalID: 2131790612
+      spriteID: 344802579fa1c71439739885db641a55
+      internalID: -1738196
       vertices: []
       indices: 
       edges: []
@@ -141,10 +141,10 @@ TextureImporter:
       name: ZapperMoveSprites_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 95
-        width: 14
-        height: 28
+        x: 16
+        y: 93
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ec8f232a24e64650b5509b8e1ac80ac
-      internalID: -659904194
+      spriteID: c8dd577b181f62c41a143bfeb468c692
+      internalID: -1620096077
       vertices: []
       indices: 
       edges: []
@@ -162,10 +162,10 @@ TextureImporter:
       name: ZapperMoveSprites_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 95
-        width: 13
-        height: 27
+        x: 32
+        y: 93
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5f589bdd6738469d86697f2d50eaab1
-      internalID: -368232472
+      spriteID: 6298282fd483dd64fbfe293b64ca4437
+      internalID: -2109583778
       vertices: []
       indices: 
       edges: []
@@ -184,9 +184,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
-        width: 13
-        height: 29
+        y: 62
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 078eb3f013bf748e4930e0a8b0f9add1
-      internalID: 1879693646
+      spriteID: 9b5ffe747651e3a40922e81da2601112
+      internalID: -1198230872
       vertices: []
       indices: 
       edges: []
@@ -205,9 +205,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 64
-        width: 14
-        height: 28
+        y: 62
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 611a8275209ce4f458505f0262ec274d
-      internalID: -283870349
+      spriteID: 565d8d62ec7898c41b44dfcad6eea058
+      internalID: 1826769415
       vertices: []
       indices: 
       edges: []
@@ -225,10 +225,10 @@ TextureImporter:
       name: ZapperMoveSprites_5
       rect:
         serializedVersion: 2
-        x: 33
-        y: 64
-        width: 15
-        height: 27
+        x: 32
+        y: 62
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f0ac425acc04521b2ce5b4d91d8c8e
-      internalID: -674335910
+      spriteID: 505aa2543df70e94aba9c9ce2c0e33ac
+      internalID: -1363719982
       vertices: []
       indices: 
       edges: []
@@ -248,8 +248,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 31
-        width: 14
-        height: 29
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6619184b93c2245eb97cf56205ad242f
-      internalID: -387898080
+      spriteID: 674778063ab930d48bc54dfbeff583b4
+      internalID: 773835507
       vertices: []
       indices: 
       edges: []
@@ -267,10 +267,10 @@ TextureImporter:
       name: ZapperMoveSprites_7
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 31
-        width: 13
-        height: 28
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b79fa29c57a44a6b41364bd120fa0e
-      internalID: -468565698
+      spriteID: b0975fc8a3a28ab45a1550ffa6e52ab5
+      internalID: -665430290
       vertices: []
       indices: 
       edges: []
@@ -288,10 +288,10 @@ TextureImporter:
       name: ZapperMoveSprites_8
       rect:
         serializedVersion: 2
-        x: 33
-        y: 32
-        width: 13
-        height: 26
+        x: 32
+        y: 31
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31a05b3ae2f6b462ab2ce2fbf4645f2e
-      internalID: -244251012
+      spriteID: c29249945d7c7034582b33cfb4592035
+      internalID: -1654395173
       vertices: []
       indices: 
       edges: []
@@ -311,8 +311,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 13
-        height: 28
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,8 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94f9bc66e72bd4e4f97ffd6cd4f85a53
-      internalID: -36713251
+      spriteID: 9071d9e5f17ff484b808e3728dc435b7
+      internalID: 1536616205
       vertices: []
       indices: 
       edges: []
@@ -332,8 +332,8 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 0
-        width: 14
-        height: 28
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,8 +341,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45c3ce284aa784bc89ad07089fca05f5
-      internalID: 1081511265
+      spriteID: a94994c3b961d774bb0633201d54a60a
+      internalID: -1300252441
       vertices: []
       indices: 
       edges: []
@@ -351,10 +351,10 @@ TextureImporter:
       name: ZapperMoveSprites_11
       rect:
         serializedVersion: 2
-        x: 33
-        y: 1
-        width: 15
-        height: 27
+        x: 32
+        y: 0
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eea54eb8e00974ba3a7199cbb30e2045
-      internalID: -727572636
+      spriteID: 13c7aee1e334d6148bf5bda55de7efe5
+      internalID: 1841748998
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ZapperMoveSprites_0: 2131790612
-      ZapperMoveSprites_1: -659904194
-      ZapperMoveSprites_10: 1081511265
-      ZapperMoveSprites_11: -727572636
-      ZapperMoveSprites_2: -368232472
-      ZapperMoveSprites_3: 1879693646
-      ZapperMoveSprites_4: -283870349
-      ZapperMoveSprites_5: -674335910
-      ZapperMoveSprites_6: -387898080
-      ZapperMoveSprites_7: -468565698
-      ZapperMoveSprites_8: -244251012
-      ZapperMoveSprites_9: -36713251
+      ZapperMoveSprites_0: -1738196
+      ZapperMoveSprites_1: -1620096077
+      ZapperMoveSprites_10: -1300252441
+      ZapperMoveSprites_11: 1841748998
+      ZapperMoveSprites_2: -2109583778
+      ZapperMoveSprites_3: -1198230872
+      ZapperMoveSprites_4: 1826769415
+      ZapperMoveSprites_5: -1363719982
+      ZapperMoveSprites_6: 773835507
+      ZapperMoveSprites_7: -665430290
+      ZapperMoveSprites_8: -1654395173
+      ZapperMoveSprites_9: 1536616205
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
