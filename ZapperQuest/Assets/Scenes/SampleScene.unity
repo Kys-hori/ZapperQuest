@@ -13027,6 +13027,22 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.00050572306
       objectReference: {fileID: 0}
+    - target: {fileID: 4702244843871763970, guid: 4c6fd702dd4724e82a218064cabef23a, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702244843871763970, guid: 4c6fd702dd4724e82a218064cabef23a, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702244843871763970, guid: 4c6fd702dd4724e82a218064cabef23a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702244843871763970, guid: 4c6fd702dd4724e82a218064cabef23a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.31
+      objectReference: {fileID: 0}
     - target: {fileID: 4920937940762527320, guid: 4c6fd702dd4724e82a218064cabef23a, type: 3}
       propertyPath: m_Material
       value: 

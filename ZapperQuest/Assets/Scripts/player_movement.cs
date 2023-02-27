@@ -33,35 +33,36 @@ public class player_movement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Update called x times per second (great for physics related models)
     private void FixedUpdate(){
-        // If movement input is not 0, try to move
         if(movementInput != Vector2.zero){
-            bool success = TryMove(movementInput); 
-            if(!success){
-                    success = TryMove(new Vector2(0, movementInput.y));
-                    if(!success){success = TryMove(new Vector2(movementInput.x, 0));}
-             }
-        } 
-        if(movementInput.x != 0){
-            animator.SetBool("isMovingSide", true);}  
-        else {
-            animator.SetBool("isMovingSide", false);
-        }
-        if(movementInput.x < 0){
-        spriteRenderer.flipX = true; }
-        if(movementInput.x > 0){
-        spriteRenderer.flipX = false;}
-    }
 
+            bool success = TryMove(movementInput); 
+
+            if(!success){success = TryMove(new Vector2(0, movementInput.y));}
+
+            if(!success){success = TryMove(new Vector2(movementInput.x, 0));}
+
+            animator.SetBool("isMovingSide", success); 
+
+        }  else {animator.SetBool("isMovingSide" , false);}
+        
+
+        if(movementInput.x < 0){spriteRenderer.flipX = true;}
+        else if(movementInput.x > 0){spriteRenderer.flipX = false;}
+    }
     private bool TryMove(Vector2 direction) {
+        if(direction != Vector2.zero) {
         int count = rb.Cast(movementInput, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime + collisionOffset);
             if(count == 0 ){
                 rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
                 return true;
             } else {return false;}
+         } else {
+            return false;
          }
-    void OnMove(InputValue movementValue){
+    }
+    void OnMove(InputValue movementValue) {
         movementInput = movementValue.Get<Vector2>();
     }
+    
 }
