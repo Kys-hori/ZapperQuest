@@ -41,8 +41,7 @@ public class player_movement : MonoBehaviour
             if(movementInput.x < 0){spriteRenderer.flipX = true;}
             else if(movementInput.x > 0){spriteRenderer.flipX = false;}
             animator.SetBool("isMovingSide", success_x);
-            animator.SetBool("isMovingDown", false);
-            animator.SetBool("isMovingUp", false);
+
         }
         else{
             animator.SetBool("isMovingSide" , false);
