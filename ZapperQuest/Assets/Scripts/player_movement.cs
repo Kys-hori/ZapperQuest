@@ -34,21 +34,30 @@ public class player_movement : MonoBehaviour
     }
 
     private void FixedUpdate(){
-        if(movementInput != Vector2.zero){
+        bool success_x = TryMove(new Vector2(movementInput.x, 0));
+        bool success_y = TryMove(new Vector2(0, movementInput.y));
 
-            bool success = TryMove(movementInput); 
-
-            if(!success){success = TryMove(new Vector2(movementInput.x, 0));}
-
-            if(!success){success = TryMove(new Vector2(0, movementInput.y));}
-
-            animator.SetBool("isMovingSide", success); 
-
-        }  else {animator.SetBool("isMovingSide" , false);}
-        
-
-        if(movementInput.x < 0){spriteRenderer.flipX = true;}
-        else if(movementInput.x > 0){spriteRenderer.flipX = false;}
+        if(success_x){
+            if(movementInput.x < 0){spriteRenderer.flipX = true;}
+            else if(movementInput.x > 0){spriteRenderer.flipX = false;}
+            animator.SetBool("isMovingSide", success_x);
+            animator.SetBool("isMovingDown", false);
+            animator.SetBool("isMovingUp", false);
+        }
+        else{
+            animator.SetBool("isMovingSide" , false);
+        }
+        if(success_y){
+            if(!success_x){
+                if(movementInput.y < 0){animator.SetBool("isMovingDown", success_y);}
+                if(movementInput.y > 0) {animator.SetBool("isMovingUp", success_y);}
+            }
+        }
+        else{
+            animator.SetBool("isMovingDown", false);
+            animator.SetBool("isMovingUp", false);
+        }
+        TryMove(movementInput);
     }
     private bool TryMove(Vector2 direction) {
         if(direction != Vector2.zero) {
